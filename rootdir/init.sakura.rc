@@ -25,6 +25,8 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+import /vendor/etc/init/hw/init.verity.rc
+
 on boot
     # add for goodix 
     chown system system /dev/goodix_fp
