@@ -18,5 +18,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.recovery.qcom.rc
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sakura-common/sakura-common-vendor.mk)
