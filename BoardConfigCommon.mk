@@ -17,5 +17,8 @@ TARGET_SCREEN_DENSITY := 420
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wakeup_gesture"
 
+# Properties
+TARGET_VENDOR_PROP += $(SAKURA_PATH)/vendor.prop
+
 # Inherit the proprietary files
 include vendor/xiaomi/sakura-common/BoardConfigVendor.mk
