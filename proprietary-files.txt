@@ -11,6 +11,12 @@ vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
 
+# Audio Hardware
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.primary.msm8953.so
+vendor/lib64/hw/audio.primary.default.so
+vendor/lib64/hw/audio.primary.msm8953.so
+
 # Camera
 vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
