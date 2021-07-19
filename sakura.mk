@@ -20,7 +20,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc
+    init.recovery.qcom.rc \
+    init.sakura.rc
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sakura-common/sakura-common-vendor.mk)
