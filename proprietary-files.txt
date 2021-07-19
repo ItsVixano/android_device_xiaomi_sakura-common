@@ -660,6 +660,30 @@ vendor/firmware/goodixfp.b05|cb9c666ce9653510954af7380936f5ccd3e7cc37
 vendor/firmware/goodixfp.b06|826951cf2ced420f537a17f97eec815f89f373b0
 vendor/firmware/goodixfp.mdt|8df4ab6596661ac3549f27c0643df64da6904f51
 
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/lib/hw/gatekeeper.msm8953.so
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/lib64/hw/gatekeeper.msm8953.so
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/lib/libkeymasterdeviceutils.so
+vendor/lib/libkeymasterprovision.so
+vendor/lib/libkeymasterutils.so
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterprovision.so
+vendor/lib64/libkeymasterutils.so
+
+# Keystore
+vendor/lib/hw/keystore.msm8953.so
+vendor/lib64/hw/keystore.msm8953.so
+
 # QC RIL
 vendor/bin/hw/qcrild
 vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
