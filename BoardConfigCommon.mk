@@ -12,7 +12,7 @@ include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 SAKURA_PATH := device/xiaomi/sakura-common
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 420
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wakeup_gesture"
