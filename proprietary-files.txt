@@ -625,15 +625,13 @@ vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.msm8953.so
 
 # Fingerprint - from daisy V10.0.2.0.PDLMIFJ
-vendor/lib64/libgf_ca.so|d62fecde6046483566af2104d04a69af59a8b3d8|06df73aba535a79852c7a3168d5178a6283f57a1
-vendor/lib64/libgf_hal.so|965bcf9d994cdc29e3433fa74eefa8c512744bda
-vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
-vendor/framework/com.fingerprints.extension.jar|4d231542a253a8c56737bfef46a6494de2acaeb0
-vendor/lib64/com.fingerprints.extension@1.0.so|e04a6ebda2ee2bd9e411599c3c91fef164e980df
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|4b3e658f52dfe31d7883f19bbeb8e05d323ba607|feee131f714ed9a7dd93e7ba9bfc768cbf651426
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|c9d0251df63d8e34b6d70a59ad7b774c9f640fa1
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.default.so|78aa5520ef94120c363632c3ed3f1aefa0b5c38d
 vendor/lib64/hw/gf_fingerprint.default.so:vendor/lib64/hw/gf_fingerprint.goodix.default.so|476c220ea105a01658ba1dc11c005c48cbc79679
+vendor/lib64/com.fingerprints.extension@1.0.so|e04a6ebda2ee2bd9e411599c3c91fef164e980df
+vendor/lib64/libgf_ca.so|d62fecde6046483566af2104d04a69af59a8b3d8|06df73aba535a79852c7a3168d5178a6283f57a1
+vendor/lib64/libgf_hal.so|965bcf9d994cdc29e3433fa74eefa8c512744bda
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|4b3e658f52dfe31d7883f19bbeb8e05d323ba607|feee131f714ed9a7dd93e7ba9bfc768cbf651426
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|c9d0251df63d8e34b6d70a59ad7b774c9f640fa1
 
 # Fingerprint Firmware - from daisy V10.0.2.0.PDLMIFJ
 etc/firmware/goodix_firmware.bin:vendor/etc/firmware/goodix_firmware.bin|cbd87b30f72e82adf87537fe93911fb2d70bce84
