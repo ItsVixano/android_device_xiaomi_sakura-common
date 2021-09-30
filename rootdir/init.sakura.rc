@@ -45,10 +45,3 @@ on boot
     # Add for DT2W
     chown system system /proc/touchpanel/wakeup_gesture
     chmod 0660 /proc/touchpanel/wakeup_gesture
-
-on property:sys.fp.vendor=goodix
-   setprop ro.boot.fpsensor goodix
-   setprop persist.sys.fp.vendor goodix
-
-on property:sys.fp.vendor=FPC
-   setprop ro.boot.fpsensor fpc
