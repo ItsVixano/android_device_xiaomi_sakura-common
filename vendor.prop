@@ -6,5 +6,5 @@ ro.vendor.audio.sdk.fluencetype=fluence
 
 # Camera
 persist.vendor.camera.dual.camera=0
-persist.vendor.camera.HAL3.enabled=0
+persist.vendor.camera.HAL3.enabled=1
 persist.vendor.camera.aux.camera=1

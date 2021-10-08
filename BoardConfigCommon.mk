@@ -14,6 +14,9 @@ SAKURA_PATH := device/xiaomi/sakura-common
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# Camera
+TARGET_SUPPORT_HAL1 := false
+
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wakeup_gesture"
 
