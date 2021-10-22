@@ -12,6 +12,10 @@ function blob_fixup() {
             ;;
         vendor/lib64/libgf_ca.so)
             sed -i 's|/system/etc/firmware|/vendor/firmware\x0\x0\x0\x0|g' "${2}"
+            sed -i 's|/vendor/firmware_mnt/image|/vendor/firmware_fp\x0\x0\x0\x0\x0\x0\x0|g' "${2}"
+            ;;
+        vendor/lib64/hw/fingerprint.fpc.default.so)
+            sed -i 's|/vendor/firmware_mnt/image|/vendor/firmware_fp\x0\x0\x0\x0\x0\x0\x0|g' "${2}"
             ;;
         vendor/lib64/libril-qc-hal-qmi.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
