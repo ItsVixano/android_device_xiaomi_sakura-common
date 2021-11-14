@@ -23,8 +23,5 @@ TARGET_VENDOR_PROP += $(SAKURA_PATH)/vendor.prop
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
-# Security Patch Level
-VENDOR_SECURITY_PATCH := 2021-07-01
-
 # Inherit the proprietary files
 include vendor/xiaomi/sakura-common/BoardConfigVendor.mk
