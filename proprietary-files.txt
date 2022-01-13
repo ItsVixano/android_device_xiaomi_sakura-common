@@ -667,7 +667,7 @@ vendor/lib64/libkeymasterutils.so
 
 # QC RIL
 vendor/bin/hw/qcrild
-vendor/etc/init/qcrild.rc
+vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
 vendor/lib64/libqcrilFramework.so
 vendor/lib64/libril-qc-hal-qmi.so
 vendor/lib64/qcrild_librilutils.so
