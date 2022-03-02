@@ -630,22 +630,22 @@ vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 
 # Fingerprint Firmware
-vendor/firmware_fp/fpctzapp.b00
-vendor/firmware_fp/fpctzapp.b01
-vendor/firmware_fp/fpctzapp.b02
-vendor/firmware_fp/fpctzapp.b03
-vendor/firmware_fp/fpctzapp.b04
-vendor/firmware_fp/fpctzapp.b05
-vendor/firmware_fp/fpctzapp.b06
-vendor/firmware_fp/fpctzapp.mdt
-vendor/firmware_fp/goodixfp.b00
-vendor/firmware_fp/goodixfp.b01
-vendor/firmware_fp/goodixfp.b02
-vendor/firmware_fp/goodixfp.b03
-vendor/firmware_fp/goodixfp.b04
-vendor/firmware_fp/goodixfp.b05
-vendor/firmware_fp/goodixfp.b06
-vendor/firmware_fp/goodixfp.mdt
+modem/image/fpctzapp.b00:vendor/firmware_fp/fpctzapp.b00
+modem/image/fpctzapp.b01:vendor/firmware_fp/fpctzapp.b01
+modem/image/fpctzapp.b02:vendor/firmware_fp/fpctzapp.b02
+modem/image/fpctzapp.b03:vendor/firmware_fp/fpctzapp.b03
+modem/image/fpctzapp.b04:vendor/firmware_fp/fpctzapp.b04
+modem/image/fpctzapp.b05:vendor/firmware_fp/fpctzapp.b05
+modem/image/fpctzapp.b06:vendor/firmware_fp/fpctzapp.b06
+modem/image/fpctzapp.mdt:vendor/firmware_fp/fpctzapp.mdt
+modem/image/goodixfp.b00:vendor/firmware_fp/goodixfp.b00
+modem/image/goodixfp.b01:vendor/firmware_fp/goodixfp.b01
+modem/image/goodixfp.b02:vendor/firmware_fp/goodixfp.b02
+modem/image/goodixfp.b03:vendor/firmware_fp/goodixfp.b03
+modem/image/goodixfp.b04:vendor/firmware_fp/goodixfp.b04
+modem/image/goodixfp.b05:vendor/firmware_fp/goodixfp.b05
+modem/image/goodixfp.b06:vendor/firmware_fp/goodixfp.b06
+modem/image/goodixfp.mdt:vendor/firmware_fp/goodixfp.mdt
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
