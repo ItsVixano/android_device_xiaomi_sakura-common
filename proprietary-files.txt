@@ -630,7 +630,6 @@ vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 
 # Fingerprint Firmware
-etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin
 vendor/firmware_fp/fpctzapp.b00
 vendor/firmware_fp/fpctzapp.b01
 vendor/firmware_fp/fpctzapp.b02
@@ -670,3 +669,6 @@ vendor/lib64/qcrild_librilutils.so
 
 # Sensors configs
 vendor/etc/sensors/sensor_def_qcomdev.conf
+
+# Touchscreen firmware
+etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin
