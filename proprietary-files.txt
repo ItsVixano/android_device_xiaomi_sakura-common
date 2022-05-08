@@ -20,9 +20,6 @@ vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
-vendor/lib/libmmjpeg.so
-vendor/lib/libmmqjpeg_codec.so
-vendor/lib/libmmqjpegdma.so
 vendor/lib/liboptizoom.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
@@ -32,6 +29,11 @@ vendor/lib/libseemore.so
 vendor/lib/libubifocus.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
+
+# Camera (libmmjpeg) - from deen_user 10 QPKS30.54-22-16 9ce79 release-keys
+vendor/lib/libmmjpeg.so|97101fa8a7d7137011b38349eae2f5de5f63d7a1
+vendor/lib/libmmqjpeg_codec.so|93fb7395e1b3490d46163cc1486022876fc4ace2
+vendor/lib/libmmqjpegdma.so|d4b449b6596b50e765819a677aeb6f876475cde9
 
 # Camera actuators
 vendor/lib/libactuator_sakura_dw9714v_ofilm.so
