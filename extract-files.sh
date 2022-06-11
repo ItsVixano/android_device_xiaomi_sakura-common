@@ -30,7 +30,6 @@ fi
 
 set -e
 
-export VENDOR=xiaomi
 export DEVICE_COMMON=msm8953-common
 export DEVICE_SPECIFIED_COMMON_DEVICE="daisy sakura"
 
